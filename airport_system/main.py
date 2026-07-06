@@ -9,7 +9,7 @@ class Flight:
     def add_passenger(self,name,passport,age):
         if self.name != str:
             print(f"Passenger name is written uncorrectly.")
-        elif len.self.passport < 6:
+        elif len(self.passport) < 6:
             print(f"Passport number is too short.")
         elif self.age <= 0 or self.age >= 105:
             print(f"Age is uncorrect")
@@ -29,13 +29,14 @@ class Flight:
         print(f"Number is not found.")
 
     def show_passengers(self):
-        if len.self.passengers < 0:
+        if len(self.passengers) < 0:
             print(f"Passengers list is empty.")
         else:
             numb = 0
-            many = len.self.passengers
+            many = len(self.passengers)
             print(f"The number of passengers is {many}.")
             for name in self.name:
                 print(f"Passenger {numb}: {name[0]}")
                 numb += 1
 
+    
