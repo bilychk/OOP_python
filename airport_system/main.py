@@ -18,7 +18,7 @@ class Flight:
                 if passenger[1] == passport:
                     print(f"A passenger with this passport number is already registered.")
                     return
-            self.passengers.append([name, passport, age])
+            
         
         self.passengers.append([name,passport,age])
         print(f"Passenger is succesfuly added to passengers list.")
@@ -94,6 +94,7 @@ class Flight:
 
 flight = Flight("AZ101", "Istanbul", 5)
 flight.show_flight_info()
+
 
 flight.add_passenger("Anna", "A123", 23)
 flight.add_passenger("Mark", "B456", 17)
