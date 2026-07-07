@@ -19,7 +19,7 @@ class Product:
         if amount <= 0:
             print(f"Amount has to be positive")
         else:
-            self.quntity += amount
+            self.quantity += amount
 
         
 
@@ -27,7 +27,7 @@ class Product:
         if amount <= 0:
             print(f"Amount has to be positive")
         else:
-            self.quntity -= amount
+            self.quantity -= amount
     
 
 
