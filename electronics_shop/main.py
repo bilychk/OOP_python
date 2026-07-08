@@ -110,5 +110,23 @@ class Inventory:
         product.decrease_quantity(amount)
         print(f"Succesfuly sold {amount} of {product.title} product")
         return True
+    
+
+    class Sale:
+        def __init__(self, sale_id, product_id,product_title,quantity,total_price):
+            self.sale_id = sale_id
+            self.product_id = product_id
+            self.product_title = product_title
+            self.quantity = quantity
+            self.total_price = total_price
+
+        def show_info(self):
+            print(f"Sale ID: {self.sale_id}")
+            print(f"Product ID: {self.product_id}")
+            print(f"Product title: {self.product_title}")
+            print(f"Quantity sold: {self.quantity}")
+            print(f"Total price: {self.total_price}")
+
+            
 
 
