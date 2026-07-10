@@ -1,7 +1,7 @@
 # OOP_python
  
 Projects in Python for practicing object-oriented programming (OOP).
-Each project lives in its own folder and includes the code plus a separate README describing it.
+Each project lives in its own folder and includes the code plus a separate README describing it
  
 ## Featured Project
  
