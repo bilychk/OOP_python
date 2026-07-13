@@ -53,5 +53,5 @@ This demonstrates object interaction: separate classes with clear responsibiliti
 python3 main.py
 ```
  
-Then follow the on-screen menu to manage the warehouse.
+Then follow the on-screen menu with multiple choices to manage the warehouse.
  
